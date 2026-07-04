@@ -57,15 +57,15 @@ st.write("### Model Parameters")
 st.write(f"**Coefficient (m):** {m:.4f}")
 st.write(f"**Intercept (b):** {b:.4f}")
 
-# 6. Manual Math & Sigmoid Function
-def sigmoid(x):
-    return 1 / (1 + math.exp(-x))
+# # 6. Manual Math & Sigmoid Function
+# def sigmoid(x):
+#     return 1 / (1 + math.exp(-x))
 
-def prediction_function(age):
-    # z = mx + b
-    z = m * age + b 
-    y = sigmoid(z)
-    return y
+# def prediction_function(age):
+#     # z = mx + b
+#     z = m * age + b 
+#     y = sigmoid(z)
+#     return y
 
 # 7. Interactive Prediction UI
 st.write("### Try Your Own Prediction")
