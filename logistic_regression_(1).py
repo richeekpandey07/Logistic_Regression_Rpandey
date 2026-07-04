@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import math
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from matplotlib import pyplot as plt
@@ -9,8 +7,8 @@ from matplotlib import pyplot as plt
 # Page Configuration
 
 st.set_page_config(
-    page_title="House Price Prediction",
-    page_icon="🏠",
+    page_title="Insurance purchase Prediction",
+    page_icon="💵",
     layout="centered"
 )
 
