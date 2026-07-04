@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import math
-# from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from matplotlib import pyplot as plt
 
@@ -13,7 +13,8 @@ st.write("Predict Insurance Purchase using Logistic Regression")
 # Note: Ensure "insurance_data.csv" is in the same directory as this script!
 try:
     df = pd.read_csv("insurance_data.csv")
-    st.write("### Dataset Preview", df.head())
+    st.write("### Dataset Preview")
+    st.dataframe(df.head())
 except FileNotFoundError:
     st.error("Please place 'insurance_data.csv' in the same folder as this script.")
     st.stop()
@@ -55,7 +56,7 @@ def sigmoid(x):
     return 1 / (1 + math.exp(-x))
 
 def prediction_function(age):
-    # y = mx + b
+    # z = mx + b
     z = m * age + b 
     y = sigmoid(z)
     return y
