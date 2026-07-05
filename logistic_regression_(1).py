@@ -87,7 +87,7 @@ st.write("### Try Your Own Prediction")
 user_age = st.number_input(
     "Enter Age:",
     min_value=1,
-    max_value=100,
+    max_value=82,
     value=35
 )
 
