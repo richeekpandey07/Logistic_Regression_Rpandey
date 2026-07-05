@@ -20,7 +20,7 @@ st.markdown("""
 📧 Branch:**INFORMATION_TECHNOLOGY**,
     Room:**G-612
 
-🔗 LinkedIn: https://linkedin.com/in/Richeek Pandey
+🔗 LinkedIn: https://linkedin.com/in/RicheekPandey
 💻 GitHub: https://github.com/richeekpandey07
 """)
 
