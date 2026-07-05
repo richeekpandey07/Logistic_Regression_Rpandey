@@ -109,4 +109,4 @@ if st.button("Predict"):
         st.balloons()
     else: 
         st.error("Prediction:Age not valid for insurance   ❌")
-     st.warning("👤,## you are not eligible for insurance ##.")
+        st.warning("👤,## you are not eligible for insurance ##.")
