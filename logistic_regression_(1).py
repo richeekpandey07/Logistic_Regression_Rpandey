@@ -16,7 +16,7 @@ st.write("Predict Insurance Purchase using Logistic Regression",
 BY,
          NAME = "RICHEEK_PANDEY", 
          BRANCH =" INFORMATION_TECHNOLOGY_(IT)",
-         ROOM =" G-612"
+         ROOM =" G-612",
          layout="centered"
 )
 # 1. Load Data
