@@ -12,8 +12,9 @@ st.set_page_config(
 )
 
 st.title("Insurance Purchase Prediction")
-st.write("Predict Insurance Purchase using Logistic Regression")
-st.write("NAME = RICHEEK_PANDEY 
+st.write("Predict Insurance Purchase using Logistic Regression
+BY
+         NAME = RICHEEK_PANDEY 
          BRANCH = INFORMATION_TECHNOLOGY_(IT)
          ROOM = G-612")
 # 1. Load Data
