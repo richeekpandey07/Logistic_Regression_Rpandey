@@ -11,7 +11,7 @@ st.set_page_config(
     layout="centered"
 )
 st.title("Insurance Purchase Prediction")
-st.title("Insurance Purchase Prediction")
+st.write("Insurance Purchase Prediction by using logistic regression")
 
 st.markdown("---")
 st.markdown("""
@@ -105,16 +105,7 @@ if st.button("Predict"):
 
     if probability >= 0.5:
         st.success("Prediction: Age valid for insurance ✅")
+        st.balloons()
     else:
         st.error("Prediction:Age not valid for insurance   ❌")
         
-st.markdown("---")
-st.markdown("""
-👨‍💻 **Developed By:** RICHEEK_PANDEY
-
-📧 Branch:**INFORMATION_TECHNOLOGY,
-    Room:**G-612
-
-🔗 LinkedIn: https://linkedin.com/in/RicheekPandey
-💻 GitHub: https://github.com/richeekpandey07
-""")
