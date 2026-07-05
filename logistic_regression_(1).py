@@ -10,6 +10,9 @@ st.set_page_config(
     page_icon="💰",
     layout="centered"
 )
+st.title("Insurance Purchase Prediction")
+st.title("Insurance Purchase Prediction")
+
 st.markdown("---")
 st.markdown("""
 👨‍💻 **Developed By:** RICHEEK_PANDEY
@@ -21,8 +24,9 @@ st.markdown("""
 💻 GitHub: https://github.com/richeekpandey07
 """)
 
-st.title("Insurance Purchase Prediction")
-st.write("Predict Insurance Purchase using Logistic Regression")
+from datetime import datetime
+st.write("📅", datetime.now().strftime("%d-%m-%Y"))
+
 # 1. Load Data
 # Note: Ensure "insurance_data.csv" is in the same directory as this script!
 try:
