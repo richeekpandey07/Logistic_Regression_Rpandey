@@ -10,6 +10,16 @@ st.set_page_config(
     page_icon="💰",
     layout="centered"
 )
+st.markdown("---")
+st.markdown("""
+👨‍💻 **Developed By:** RICHEEK_PANDEY
+
+📧 Branch:**INFORMATION_TECHNOLOGY,
+    Room:**G-612
+
+🔗 LinkedIn: https://linkedin.com/in/RicheekPandey
+💻 GitHub: https://github.com/richeekpandey07
+""")
 
 st.title("Insurance Purchase Prediction")
 st.write("Predict Insurance Purchase using Logistic Regression")
