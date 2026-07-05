@@ -15,10 +15,10 @@ st.write("Insurance Purchase Prediction by using logistic regression")
 
 st.markdown("---")
 st.markdown("""
-👨‍💻 **Developed By:** RICHEEK_PANDEY**
+👨‍💻 **Developed By:** RICHEEK_PANDEY
 
 📧 Branch:**INFORMATION_TECHNOLOGY**,
-    Room:**G-612**
+    Room:**G-612
 
 🔗 LinkedIn: https://linkedin.com/in/RicheekPandey
 💻 GitHub: https://github.com/richeekpandey07
