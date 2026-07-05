@@ -95,6 +95,7 @@ user_age = st.number_input(
 def prediction_function(age):
     # Example probability (replace with your ML model)
     probability = age / 82
+    probability = min(max(probability, 0), 1)
     return probability
 
 # Predict button
@@ -103,8 +104,7 @@ if st.button("Predict"):
 
     st.write(f"**Prediction Probability:** {probability:.2f}")
 
-    if probability >= 0.5: &&
-        if probability <=1:
+    if probability >= 0.5: 
         st.success("Prediction: Age valid for insurance ✅")
         st.balloons()
     else: 
