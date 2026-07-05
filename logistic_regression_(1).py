@@ -99,3 +99,14 @@ if st.button("Predict"):
         st.success("Prediction: Age valid for insurance ✅")
     else:
         st.error("Prediction:Age not valid for insurance   ❌")
+        
+st.markdown("---")
+st.markdown("""
+👨‍💻 **Developed by:** RICHEEK_PANDEY
+
+📧 branch:**INFORMATION_TECHNOLOGY 
+    room:**G-612
+
+🔗 LinkedIn: https://linkedin.com/in/Richeek Pandey
+💻 GitHub: https://github.com/richeekpandey07
+""")
