@@ -12,11 +12,13 @@ st.set_page_config(
 )
 
 st.title("Insurance Purchase Prediction")
-st.write("Predict Insurance Purchase using Logistic Regression
+st.write("Predict Insurance Purchase using Logistic Regression",
 BY
-         NAME = RICHEEK_PANDEY 
-         BRANCH = INFORMATION_TECHNOLOGY_(IT)
-         ROOM = G-612")
+         NAME = "RICHEEK_PANDEY", 
+         BRANCH =" INFORMATION_TECHNOLOGY_(IT)",
+         ROOM =" G-612"
+         layout="centered"
+)
 # 1. Load Data
 # Note: Ensure "insurance_data.csv" is in the same directory as this script!
 try:
