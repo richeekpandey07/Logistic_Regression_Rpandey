@@ -13,7 +13,7 @@ st.set_page_config(
 
 st.title("Insurance Purchase Prediction")
 st.write("Predict Insurance Purchase using Logistic Regression",
-BY
+BY,
          NAME = "RICHEEK_PANDEY", 
          BRANCH =" INFORMATION_TECHNOLOGY_(IT)",
          ROOM =" G-612"
