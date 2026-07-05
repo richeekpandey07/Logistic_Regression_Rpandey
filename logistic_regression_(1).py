@@ -15,10 +15,10 @@ st.write("Insurance Purchase Prediction by using logistic regression")
 
 st.markdown("---")
 st.markdown("""
-👨‍💻 **Developed By:** RICHEEK_PANDEY
+👨‍💻 **Developed By:** RICHEEK_PANDEY**
 
-📧 Branch:**INFORMATION_TECHNOLOGY,
-    Room:**G-612
+📧 Branch:**INFORMATION_TECHNOLOGY**,
+    Room:**G-612**
 
 🔗 LinkedIn: https://linkedin.com/in/RicheekPandey
 💻 GitHub: https://github.com/richeekpandey07
@@ -108,4 +108,5 @@ if st.button("Predict"):
         st.balloons()
     else:
         st.error("Prediction:Age not valid for insurance   ❌")
+        st.warning("👤,## you are not eligible for insurance ##.")
         
