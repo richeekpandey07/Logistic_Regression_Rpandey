@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 
 st.set_page_config(
     page_title="Insurance purchase Prediction",
-    page_icon="💵",
+    page_icon="💰",
     layout="centered"
 )
 
@@ -96,10 +96,10 @@ if st.button("Predict"):
         
 st.markdown("---")
 st.markdown("""
-👨‍💻 **Developed by:** RICHEEK_PANDEY
+👨‍💻 **Developed By:** RICHEEK_PANDEY
 
-📧 branch:**INFORMATION_TECHNOLOGY 
-    room:**G-612
+📧 Branch:**INFORMATION_TECHNOLOGY,
+    Room:**G-612
 
 🔗 LinkedIn: https://linkedin.com/in/RicheekPandey
 💻 GitHub: https://github.com/richeekpandey07
