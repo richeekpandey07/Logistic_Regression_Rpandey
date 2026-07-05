@@ -18,8 +18,7 @@ st.write("Predict Insurance Purchase using Logistic Regression")
 st.sidebar.header("DEVELOPER DETAILS")
 
 name = st.sidebar.text_input("RICHEEK_PANDEY")
-branch = st.sidebar.slider("INFORMATION_TECHNOLOGY")
-room = st.sidebar.slider("G"-612)
+branch = st.sidebar.slider("INFORMATION_TECHNOLOGY,ROOM-G,612")
 # 1. Load Data
 # Note: Ensure "insurance_data.csv" is in the same directory as this script!
 try:
