@@ -94,7 +94,7 @@ user_age = st.number_input(
 # Prediction function
 def prediction_function(age):
     # Example probability (replace with your ML model)
-    probability = age / 85
+    probability = age / 82
     return probability
 
 # Predict button
