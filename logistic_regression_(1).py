@@ -103,7 +103,7 @@ if st.button("Predict"):
 
     st.write(f"**Prediction Probability:** {probability:.2f}")
 
-    if probability >= 0.5:
+    if probability >= 0.5 && <=1:
         st.success("Prediction: Age valid for insurance ✅")
         st.balloons()
     else:
