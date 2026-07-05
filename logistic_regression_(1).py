@@ -13,12 +13,6 @@ st.set_page_config(
 
 st.title("Insurance Purchase Prediction")
 st.write("Predict Insurance Purchase using Logistic Regression")
-
-# Sidebar
-st.sidebar.header("DEVELOPER DETAILS")
-
-name = st.sidebar.text_input("RICHEEK_PANDEY")
-branch = st.sidebar.slider("INFORMATION_TECHNOLOGY,ROOM-G,612")
 # 1. Load Data
 # Note: Ensure "insurance_data.csv" is in the same directory as this script!
 try:
@@ -107,6 +101,6 @@ st.markdown("""
 📧 branch:**INFORMATION_TECHNOLOGY 
     room:**G-612
 
-🔗 LinkedIn: https://linkedin.com/in/Richeek Pandey
+🔗 LinkedIn: https://linkedin.com/in/RicheekPandey
 💻 GitHub: https://github.com/richeekpandey07
 """)
