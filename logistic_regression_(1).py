@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from matplotlib import pyplot as plt
 
 # Page Configuration
 
@@ -57,23 +56,41 @@ st.write("### Model Parameters")
 st.write(f"**Coefficient (m):** {m:.4f}")
 st.write(f"**Intercept (b):** {b:.4f}")
 
-# # 6. Manual Math & Sigmoid Function
-# def sigmoid(x):
-#     return 1 / (1 + math.exp(-x))
+ # 6. Manual Math & Sigmoid Function
+ def sigmoid(x):
+     return 1 / (1 + math.exp(-x))
 
 # def prediction_function(age):
-#     # z = mx + b
-#     z = m * age + b 
-#     y = sigmoid(z)
-#     return y
+z = mx + b
+z = m * age + b 
+y = sigmoid(z)
+    return y
 
-# 7. Interactive Prediction UI
+import streamlit as st
+
 st.write("### Try Your Own Prediction")
-user_age = st.number_input("Enter Age:", min_value=1, max_value=100, value=35)
-probability = prediction_function(user_age)
 
-st.write(f"Calculated Probability: **{probability:.3f}**")
-if probability >= 0.5:
-    st.success(f"With a probability of {probability:.3f}, a person aged {user_age} **will** buy insurance.")
-else:
-    st.warning(f"With a probability of {probability:.3f}, a person aged {user_age} **will not** buy insurance.")
+# User input
+user_age = st.number_input(
+    "Enter Age:",
+    min_value=1,
+    max_value=100,
+    value=35
+)
+
+# Prediction function
+def prediction_function(age):
+    # Example probability (replace with your ML model)
+    probability = age / 100
+    return probability
+
+# Predict button
+if st.button("Predict"):
+    probability = prediction_function(user_age)
+
+    st.write(f"**Prediction Probability:** {probability:.2f}")
+
+    if probability >= 0.5:
+        st.success("Prediction: Age valid for insurance ✅")
+    else:
+        st.error("Prediction:Age not valid for insurance   ❌")
