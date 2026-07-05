@@ -19,7 +19,7 @@ st.sidebar.header("DEVELOPER DETAILS")
 
 name = st.sidebar.text_input("RICHEEK_PANDEY")
 branch = st.sidebar.slider("INFORMATION_TECHNOLOGY")
-room.no= = st.sidebar.slider("G"-612)
+room = st.sidebar.slider("G"-612)
 # 1. Load Data
 # Note: Ensure "insurance_data.csv" is in the same directory as this script!
 try:
