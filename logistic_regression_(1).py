@@ -64,7 +64,7 @@ st.write(f"**Intercept (b):** {b:.4f}")
 z = mx + b
 z = m * age + b 
 y = sigmoid(z)
-    return y
+    # return y
 
 import streamlit as st
 
