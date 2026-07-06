@@ -13,16 +13,6 @@ st.set_page_config(
 st.title("Insurance Purchase Prediction")
 st.write("Insurance Purchase Prediction by using logistic regression")
 
-st.markdown("---")
-st.markdown("""
-👨‍💻 **Developed By:** RICHEEK_PANDEY
-
-📧 Branch:**INFORMATION_TECHNOLOGY**,
-    Room:**G-612
-
-🔗 LinkedIn: www.linkedin.com/in/richeek-pandey-9954783a9
-💻 GitHub: https://github.com/richeekpandey07
-""")
 
 from datetime import datetime
 st.write("📅", datetime.now().strftime("%d-%m-%Y"))
@@ -110,3 +100,13 @@ if st.button("Predict"):
     else: 
         st.error("Prediction:Age not valid for insurance   ❌")
         st.warning("👤,## you are not eligible for insurance ##.")
+
+st.write("CONTACT THE DEVELOPER---")
+st.markdown("---")
+st.markdown("""
+👨‍💻 **Developed By:** RICHEEK_PANDEY
+
+
+🔗 LinkedIn: www.linkedin.com/in/richeek-pandey-9954783a9
+💻 GitHub: https://github.com/richeekpandey07
+""")
