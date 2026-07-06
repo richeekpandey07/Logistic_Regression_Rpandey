@@ -103,8 +103,8 @@ if st.button("Predict"):
 
 st.markdown("---")
 st.markdown("""
+**CONTACT THE DEVELOPER---**
 
-st.title("CONTACT THE DEVELOPER---")
 👨‍💻 **Developed By:** RICHEEK_PANDEY
 
 
